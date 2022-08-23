@@ -1,7 +1,7 @@
 {
   "name": "automatic-i18-zh",
   "displayName": "AUTOMATIC I18 ZH",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "AUTOMATIC NAVIGATE TO I18 ZH.",
   "author": "Yurica",
   "scripts": {
@@ -9,7 +9,8 @@
     "build": "plasmo build",
     "dev:firefox": "plasmo dev --target=firefox-mv2",
     "build:firefox": "plasmo build --target=firefox-mv2",
-    "zip": "plasmo build --zip"
+    "zip": "plasmo build --zip",
+    "cl": "standard-version"
   },
   "dependencies": {
     "plasmo": "0.52.0",
@@ -23,6 +24,7 @@
     "@types/react": "18.0.17",
     "@types/react-dom": "18.0.6",
     "prettier": "2.7.1",
+    "standard-version": "^9.5.0",
     "typescript": "4.7.4"
   },
   "manifest": {
